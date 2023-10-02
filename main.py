@@ -186,8 +186,8 @@ while winner is None:
                 angle = 180 - angle
                 starting_pos = (right_box_player.x_pos, right_box_player.y_pos)
 
-            wind = wind_simulator()
-            print(wind, "<-" if wind < 0 else "->")
+            """ wind = wind_simulator()
+            print(wind, "<-" if wind < 0 else "->") """
 
             projectile = Projectile(
                 starting_pos[0], starting_pos[1], speed, angle, wind)
